@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(32, 32, 82) ;
+}
+.calculator{
+    /* background-image: url(/EXTRAS/rm218-bb-07.jpg); */
+    background-color:rgb(34, 34, 84) ;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px groove black;
+    box-shadow: -70px -70px 115px rgba(0, 0, 0, 0.1),-50px -50px 115px rgba(0,0,0,0.2);
+    
+}
+.calculator form input{
+    border: 2px groove black;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.1),-5px -5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 22px;
+    color: beige;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.calculator form input:hover{
+    background-color: rgb(233, 215, 194,0.2);
+    border: 3px inset rgb(6, 6, 6,0.5);
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    border: 2px inset black;
+    font-size: 35px;
+    color:rgb(236, 219, 201);
+    box-shadow: none;
+    background-color:rgb(25, 25, 65,0.5) ;
+    padding: 10px 10px; 
+}
+form input.equal{
+    width: 145px;
+    color: #00a2ff;
+    font-weight: 900;
+}
+form input.operator{
+    color: #00a2ff;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Dancing Script", cursive;
+    color:cornsilk;
+    font-size: 40px;
+    text-shadow: -8px 8px 15px rgba(0, 0, 0, 0.7),-5px -5px 15px rgba(0,0,0,0.8);;
+}
