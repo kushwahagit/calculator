@@ -1,5 +1,7 @@
 Simple Calculator - Web-Based Convenience (HTML/CSS/JS)
 
+website link : https://kushwahagit.github.io/calculator/
+
 This repository offers a user-friendly calculator built entirely with web technologies (HTML, CSS, and JavaScript). Access it directly from any web browser on your device for quick and convenient calculations.
 
 Key Features:
